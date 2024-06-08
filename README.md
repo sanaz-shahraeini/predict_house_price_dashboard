@@ -1,17 +1,17 @@
-# House Price Prediction Dashboard
+# 🏡 House Price Prediction Dashboard
 
 This project is a Streamlit-based interactive dashboard for predicting house prices. It allows users to upload a CSV file containing house data, perform exploratory data analysis (EDA), train a machine learning model, and visualize the results.
 
-## Features
+## ✨ Features
 
-- **Data Upload:** Upload a CSV file containing house data.
-- **Exploratory Data Analysis (EDA):** Visualize relationships between different features and house prices.
-- **Feature Engineering:** Create new features to enhance model performance.
-- **Model Training:** Train a linear regression model to predict house prices.
-- **Model Evaluation:** Evaluate model performance using Mean Squared Error (MSE) and R^2 score.
-- **Visualization:** Plot actual vs. predicted house prices.
+- **📂 Data Upload:** Upload a CSV file containing house data.
+- **🔍 Exploratory Data Analysis (EDA):** Visualize relationships between different features and house prices.
+- **🛠️ Feature Engineering:** Create new features to enhance model performance.
+- **📈 Model Training:** Train a linear regression model to predict house prices.
+- **📊 Model Evaluation:** Evaluate model performance using Mean Squared Error (MSE) and R^2 score.
+- **📉 Visualization:** Plot actual vs. predicted house prices.
 
-## Requirements
+## 📋 Requirements
 
 - Python 3.7+
 - Streamlit
@@ -20,12 +20,12 @@ This project is a Streamlit-based interactive dashboard for predicting house pri
 - Matplotlib
 - Scikit-learn
 
-## Installation
+## 🚀 Installation
 
 1. **Clone the repository:**
 
     ```sh
-    git clone https://github.com/yourusername/house-price-prediction-dashboard.git
+    git clone https://github.com/sanaz-shahraeini/predict_house_price_dashboard.git
     cd house-price-prediction-dashboard
     ```
 
@@ -48,14 +48,14 @@ This project is a Streamlit-based interactive dashboard for predicting house pri
     streamlit run house_price_dashboard.py
     ```
 
-## Usage
+## 📚 Usage
 
 1. **Upload a CSV file:** Use the file uploader in the Streamlit app to upload your house data CSV file.
 2. **Explore the Data:** View the raw data and scatter plots to understand the relationships between features and house prices.
 3. **Train the Model:** The app will preprocess the data, create features, and train a linear regression model.
 4. **Evaluate the Model:** View the model's performance metrics and visualizations of actual vs. predicted prices.
 
-## Example Data Format
+## 📝 Example Data Format
 
 The CSV file should have the following columns:
 
@@ -65,7 +65,7 @@ The CSV file should have the following columns:
 - `YearBuilt`: The year the house was built.
 - `Price`: The price of the house.
 
-## Screenshots
+## 📷 Screenshots
 
 ### Price vs. Square Footage
 
@@ -75,7 +75,7 @@ The CSV file should have the following columns:
 
 ![Actual vs. Predicted Prices](./images/actual_vs_predicted_prices.png)
 
-## Code
+## 💻 Code
 
 ```python
 import streamlit as st
