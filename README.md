@@ -1,7 +1,7 @@
 # 🏡 House Price Prediction Dashboard
 
 This project is a Streamlit-based interactive dashboard for predicting house prices. It allows users to upload a CSV file containing house data, perform exploratory data analysis (EDA), train a machine learning model, and visualize the results.
-## demo file <a href="https://house-price-prediction-pydashboard.streamlit.app/" target='_blank'> Live Demo </a>
+## <a href="https://house-price-prediction-pydashboard.streamlit.app/" target="_blank"> Live Demo </a>
 
 ## ✨ Features
 
@@ -65,16 +65,6 @@ The CSV file should have the following columns:
 - `Bathrooms`: The number of bathrooms in the house.
 - `YearBuilt`: The year the house was built.
 - `Price`: The price of the house.
-
-## 📷 Screenshots
-
-### Price vs. Square Footage
-
-![Price vs. Square Footage](./images/price_vs_square_footage.png)
-
-### Actual vs. Predicted Prices
-
-![Actual vs. Predicted Prices](./images/actual_vs_predicted_prices.png)
 
 ## 💻 Code
 
