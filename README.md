@@ -25,7 +25,7 @@ This project is a Streamlit-based interactive dashboard for predicting house pri
 1. **Clone the repository:**
 
     ```sh
-    git clone https://github.com/yourusername/house-price-prediction-dashboard.git
+    git clone  https://github.com/sanaz-shahraeini/predict_house_price_dashboard-.git
     cd house-price-prediction-dashboard
     ```
 
